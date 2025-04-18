@@ -4,8 +4,8 @@ import myImg from "../../Assets/avatar.svg"; // Replace with your own avatar ima
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
+  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
