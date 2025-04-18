@@ -6,7 +6,7 @@ import linkQualityAnalyzer from "../../Assets/Projects/nvidia.png";  // Update w
 import automaticFaucetSystem from "../../Assets/Projects/faucet.jpeg";  // Update with your project image
 import pseudoCNCBot from "../../Assets/Projects/CNCbot.jpg";  // Update with your project image
 import guitarChordRecognition from "../../Assets/Projects/guitar.png";
-//import smartIndiaHackathon from "../../Assets/Projects/smartIndiaHackathon.png";  // Update with your project image
+import smartIndiaHackathon from "../../Assets/Projects/smartIndiaHackathon.png";  // Update with your project image
 
 function Projects() {
   return (
@@ -68,7 +68,7 @@ function Projects() {
           {/* Smart India Hackathon */}
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={smartIndiaHackathon}
+              imgPath={smartIndiaHackathon}
               isBlog={false}
               title="Smart India Hackathon"
               description="Participated in the Smart India Hackathon, focusing on solving real-world problems using technology. Worked on innovative solutions for societal development."
