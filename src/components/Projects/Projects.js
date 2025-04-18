@@ -47,7 +47,7 @@ function Projects() {
               imgPath={automaticFaucetSystem}
               isBlog={false}
               title="Automatic Faucet System"
-              description="Designed and developed an automatic faucet system to conserve water. The system uses a motion sensor to detect presence and control water flow."
+              description="Designed and developed an automatic faucet system to conserve water. The system uses a ultrasonic sensor to detect presence of user's hand to trigger a dc motor in order to automatically dispense the required amount of water."
               ghLink="https://github.com/Amish-03/Automatic-Faucet-System"
               demoLink="https://automatic-faucet-demo.com/"  // Add demo link here
             />
