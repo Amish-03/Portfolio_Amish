@@ -1,4 +1,4 @@
-import React from "react";
+mingimport React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Exploring AI & Tech Innovations
             </li>
             <li className="about-activity">
-              <ImPointRight /> Working on Embedded Systems Projects
+              <ImPointRight /> Performing as a Lead Guitarist at various events and gatherings 
             </li>
             <li className="about-activity">
               <ImPointRight /> Experimenting with Machine Learning Models
