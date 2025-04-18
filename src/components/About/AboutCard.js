@@ -20,13 +20,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Electric Guitar
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Performing with my College Rock Band
-            </li>
-            <li className="about-activity">
               <ImPointRight /> Exploring AI & Tech Innovations
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Working on Embedded Systems Projects
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Experimenting with Machine Learning Models
             </li>
           </ul>
 

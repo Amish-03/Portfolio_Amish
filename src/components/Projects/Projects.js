@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import plantAI from "../../Assets/Projects/plantAI.png";  // Update with your project image
-import guitarChordRecognition from "../../Assets/Projects/guitarChordRecognition.png";  // Update with your project image
-import linkQualityAnalyzer from "../../Assets/Projects/linkQualityAnalyzer.png";  // Update with your project image
+import linkQualityAnalyzer from "../../Assets/Projects/nvidia.png";  // Update with your project image
+import automaticFaucetSystem from "../../Assets/Projects/faucet.jpeg";  // Update with your project image
+import pseudoCNCBot from "../../Assets/Projects/CNCbot.jpg";  // Update with your project image
+//import smartIndiaHackathon from "../../Assets/Projects/smartIndiaHackathon.png";  // Update with your project image
 
 function Projects() {
   return (
@@ -19,18 +20,6 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-          {/* Guitar Chord Recognition */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={guitarChordRecognition}
-              isBlog={false}
-              title="Guitar Chord Recognition"
-              description="Built a machine learning model to recognize guitar chords from audio signals. The system uses deep learning techniques and has high accuracy in real-time chord recognition."
-              ghLink="https://github.com/Amish-03/Guitar-Chord-Recognition"
-              demoLink="https://guitar-chord-recognition-demo.com/"  // Add demo link here
-            />
-          </Col>
-
           {/* Link Quality Analyzer */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -43,19 +32,41 @@ function Projects() {
             />
           </Col>
 
-          {/* Plant AI */}
+          {/* Automatic Faucet System */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={plantAI}
+              imgPath={automaticFaucetSystem}
               isBlog={false}
-              title="Plant AI"
-              description="Used a plant disease dataset to train an image classifier model using PyTorch and CNN, achieving an accuracy of 98%. The model can detect diseased leaves of 14 unique plants."
-              ghLink="https://github.com/Amish-03/Plant_AI"
-              demoLink="https://plant-ai-demo.com/"  // Add demo link here
+              title="Automatic Faucet System"
+              description="Designed and developed an automatic faucet system to conserve water. The system uses a motion sensor to detect presence and control water flow."
+              ghLink="https://github.com/Amish-03/Automatic-Faucet-System"
+              demoLink="https://automatic-faucet-demo.com/"  // Add demo link here
             />
           </Col>
 
-          {/* Add more projects below */}
+          {/* Pseudo CNC Bot */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pseudoCNCBot}
+              isBlog={false}
+              title="Pseudo CNC Bot"
+              description="Built a pseudo CNC bot as part of an engineering exploration project. The bot automates basic CNC tasks and is programmed for simple machining processes."
+              ghLink="https://github.com/Amish-03/Pseudo-CNC-Bot"
+              demoLink="https://www.linkedin.com/posts/amish-kulkarni-2a74742b2_engineeringexcellence-cnc-embeddedsystems-activity-7221799120028499968-_vy8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEss458BSR3VGjADHZ6bVXUas3GpZroGHYU"  // Add demo link here
+            />
+          </Col>
+
+          {/* Smart India Hackathon */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              //imgPath={smartIndiaHackathon}
+              isBlog={false}
+              title="Smart India Hackathon"
+              description="Participated in the Smart India Hackathon, focusing on solving real-world problems using technology. Worked on innovative solutions for societal development."
+              ghLink="https://github.com/Amish-03/Smart-India-Hackathon"
+              demoLink="https://www.linkedin.com/posts/amish-kulkarni-2a74742b2_smartindiahackathon-ai-trafficoptimization-activity-7237839032968196097-MekC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEss458BSR3VGjADHZ6bVXUas3GpZroGHYU"  // Add demo link here
+            />
+          </Col>
 
         </Row>
       </Container>

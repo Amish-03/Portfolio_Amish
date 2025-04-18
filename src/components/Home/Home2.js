@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in programming languages like
               <i>
-                <b className="purple"> C++, Python, and JavaScript. </b>
+                <b className="purple"> C++ and Python. </b>
               </i>
               <br />
               <br />
@@ -40,9 +40,10 @@ function Home2() {
               </i>
               <br />
               <br />
-              Besides coding, I also enjoy applying my creative side to projects that
-              involve music and technology, such as using <b className="purple">Guitar Pedals</b> and
-              <b className="purple"> Amplifiers</b> for sound engineering.
+              I also have experience working with
+              <i>
+                <b className="purple"> CMOS VLSI Design, 8051 Microcontroller, and ARM Microcontrollers. </b>
+              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -80,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/amish-03/"
+                  href="https://www.linkedin.com/in/amish-kulkarni-2a74742b2/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,16 +89,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/amish_03/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>
