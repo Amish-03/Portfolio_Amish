@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import linkQualityAnalyzer from "../../Assets/Projects/nvidia.png";  // Update with your project image
 import automaticFaucetSystem from "../../Assets/Projects/faucet.jpeg";  // Update with your project image
 import pseudoCNCBot from "../../Assets/Projects/CNCbot.jpg";  // Update with your project image
+import guitarChordRecognition from "../../Assets/Projects/guitar.png";
 //import smartIndiaHackathon from "../../Assets/Projects/smartIndiaHackathon.png";  // Update with your project image
 
 function Projects() {
@@ -20,13 +21,23 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-          {/* Link Quality Analyzer */}
+          {/* NVIDIA Collaboration Project */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={linkQualityAnalyzer}
               isBlog={false}
               title="Jetson Orin based optimization project in collaboration with NVIDIA"
               description="Utilized NVIDIA Jetson Orin platform to drive optimizations in system communication—project specifics remain confidential due to NDA"
+            />
+          </Col>
+          {/* Automatic Guitar Chord Recognition */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={guitarChordRecognition}
+              isBlog={false}
+              title="Automatic Guitar Chord Recognition"
+              description="Built a deep learning model using EfficientNetV2-S to recognize guitar chords from real-time video input. Designed for high accuracy and low latency in chord classification."
+              
             />
           </Col>
 
