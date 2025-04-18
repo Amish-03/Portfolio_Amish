@@ -4,12 +4,11 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiPython,
   DiGit,
-  DiJava,
+
 } from "react-icons/di";
 import {
   SiTensorflow,
   SiOpencv,
-  SiPostgresql,
   SiNvidia,
 } from "react-icons/si";
 
