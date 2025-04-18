@@ -25,10 +25,8 @@ function Projects() {
             <ProjectCard
               imgPath={linkQualityAnalyzer}
               isBlog={false}
-              title="Link Quality Analyzer"
-              description="Developed a tool to analyze the quality of GMSL links using the NVIDIA Jetson Orin Developer Kit. This project involved using data science and embedded systems."
-              ghLink="https://github.com/Amish-03/Link-Quality-Analyzer"
-              demoLink="https://link-quality-analyzer-demo.com/"  // Add demo link here
+              title="Jetson Orin based optimization project in collaboration with NVIDIA"
+              description="Utilized NVIDIA Jetson Orin platform to drive optimizations in system communication—project specifics remain confidential due to NDA"
             />
           </Col>
 
