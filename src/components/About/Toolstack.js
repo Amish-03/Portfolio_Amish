@@ -2,13 +2,12 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
+ 
   SiGit,
   SiNvidia,
   SiPytorch,
 } from "react-icons/si";
-import { SiCadence } from "react-icons/si"; // Added Cadence
-import { SiKeil } from "react-icons/si"; // Added Keil Microvision
+
 
 function Toolstack() {
   return (
