@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Pseudo CNC Bot"
               description="Built a pseudo CNC bot as part of an engineering exploration project. The bot automates basic CNC tasks and is programmed for simple machining processes."
-              ghLink="https://github.com/Amish-03/Pseudo-CNC-Bot"
+              ghLink="https://github.com/G-division-2022-2023-even"
               demoLink="https://www.linkedin.com/posts/amish-kulkarni-2a74742b2_engineeringexcellence-cnc-embeddedsystems-activity-7221799120028499968-_vy8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEss458BSR3VGjADHZ6bVXUas3GpZroGHYU"  // Add demo link here
             />
           </Col>
