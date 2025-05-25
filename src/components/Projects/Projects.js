@@ -49,7 +49,7 @@ function Projects() {
               title="Automatic Faucet System"
               description="Designed and developed an automatic faucet system to conserve water. The system uses a ultrasonic sensor to detect presence of user's hand to trigger a dc motor in order to automatically dispense the required amount of water."
               ghLink="https://github.com/Amish-03/Automatic-Faucet-System"
-              demoLink="https://automatic-faucet-demo.com/"  // Add demo link here
+                // Add demo link here
             />
           </Col>
 
@@ -72,7 +72,7 @@ function Projects() {
               isBlog={false}
               title="Smart India Hackathon"
               description="Participated in the Smart India Hackathon, focusing on solving real-world problems using technology. Worked on innovative solutions for societal development."
-              ghLink="https://github.com/Amish-03/Smart-India-Hackathon"
+              
               demoLink="https://www.linkedin.com/posts/amish-kulkarni-2a74742b2_smartindiahackathon-ai-trafficoptimization-activity-7237839032968196097-MekC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEss458BSR3VGjADHZ6bVXUas3GpZroGHYU"  // Add demo link here
             />
           </Col>
